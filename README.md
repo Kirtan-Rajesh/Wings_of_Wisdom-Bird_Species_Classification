@@ -1,7 +1,3 @@
-Here’s a detailed and attractive template for your GitHub repository’s README file:
-
----
-
 # **Wings of Wisdom - Bird Species Classification**
 
 Welcome to the **Wings of Wisdom** project repository! 🦅 This project focuses on building a **multi-class classifier** to accurately identify various **bird species** based on images. Leveraging **deep learning**, we use **pretrained models** such as ResNet50, EfficientNetB1, and XceptionNet to classify bird species from a dataset containing images of 200 unique species.
