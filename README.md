@@ -79,6 +79,10 @@ Here’s the updated **Installation and Setup** section tailored for using a Col
 
 ---
 
+Here’s the updated **Installation and Setup** section with the dataset link included:
+
+---
+
 ## ⚙️ **Installation and Setup**
 
 To run the project in **Google Colab**, follow these steps:
@@ -87,19 +91,18 @@ To run the project in **Google Colab**, follow these steps:
    - Click on the following link to open the notebook in Google Colab:
      [Wings of Wisdom - Colab Notebook]([https://colab.research.google.com/github/yourusername/wings-of-wisdom/Wings_of_Wisdom.ipynb](https://colab.research.google.com/drive/1oD6Hyy5OlFZts3gI-qNRI8htISD_kXHp?usp=drive_link))
 
-2. **Upload Dataset**:
-   - You can either upload the dataset directly in Colab or mount your Google Drive to load the dataset from there.
-   
-   **Option 1**: **Upload Dataset Manually**
-   - In Colab, click on the **Files** tab, then **Upload** the dataset files.
-   
-   **Option 2**: **Mount Google Drive**
-   ```python
-   from google.colab import drive
-   drive.mount('/content/drive')
-   ```
+2. **Download and Upload Dataset**:
+   - Download the dataset from the following link:
+     [Download Dataset]([https://drive.google.com/file/d/1TisGEJyWvnqMngTdkAbtjvbySBQ2oxYt/view?usp=drive_link](https://drive.google.com/file/d/1TisGEJyWvnqMngTdkAbtjvbySBQ2oxYt/view?usp=drive_link))
+   - Once downloaded, upload the dataset to your Colab environment. Click on the **Files** tab in Colab, then **Upload** the dataset files.
 
-   - After mounting your Google Drive, make sure the dataset is organized as follows:
+   **Alternatively, Mount Google Drive**:
+   - Mount your Google Drive to access the dataset directly from there:
+     ```python
+     from google.colab import drive
+     drive.mount('/content/drive')
+     ```
+   - Ensure that the dataset is organized in Google Drive as follows:
      ```
      /content/drive/MyDrive/wings-of-wisdom/data/
        ├── train/
@@ -107,18 +110,13 @@ To run the project in **Google Colab**, follow these steps:
        ├── labels.csv
      ```
 
-3. **Install required dependencies**:
-   Run the following command in Colab to install all the required libraries:
-   ```python
-   !pip install -r requirements.txt
-   ```
 
 4. **Run the code**:
-   - Now, execute the cells in the Colab notebook to **train** the model, **evaluate** performance, and **make predictions**.
+   - Execute the cells in the Colab notebook to **train** the model, **evaluate** performance, and **make predictions**.
 
 ---
 
-This setup ensures seamless execution of the project using Google Colab, making it easy to run experiments and visualize results in a browser-based environment.
+This setup guide ensures that you can easily run the project on Google Colab by downloading the dataset and installing the necessary dependencies.
 
 <br>
 
@@ -126,10 +124,8 @@ This setup ensures seamless execution of the project using Google Colab, making 
 
 The best model (EfficientNetB1) achieved the following performance:
 
-- **Accuracy**: 89.7%
-- **Precision**: 90.5%
-- **F1 Score**: 89.2%
-
+- **Accuracy**: 95.99%
+  
 The ensemble approach slightly boosted these numbers, improving the model’s ability to generalize to new bird species images.
 
 <br>
