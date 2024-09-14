@@ -18,7 +18,7 @@ Welcome to the **Wings of Wisdom** project repository! 🦅 This project focuses
 - [Challenges and Learning](#-challenges-and-learning)
 - [Future Work](#-future-work)
 - [Contributing](#-contributing)
-- [License](#-license)
+
 
 <br>
 
@@ -161,7 +161,4 @@ We welcome contributions from the community! Feel free to submit a pull request 
 
 <br>
 
-## 📜 **License**
-
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
